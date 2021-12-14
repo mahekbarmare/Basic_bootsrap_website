@@ -1,0 +1,42 @@
+
+body{
+    background-color:black;
+    font-family: 'Bona Nova', serif;
+}
+@media (max-width:1200px){
+    h1 {
+        font-weight: 100;
+        font-size: 3 rem;
+    }
+}
+#mainNavbar .navbar-brand{
+    color:#bd928a;
+    font-size: 1.5rem;
+
+}
+#maiNnavbar .nav-link :hover{
+color:#bd928a;
+
+}
+#mainNavbar {
+    font-size:1rem;
+    font-weight:100;
+
+}
+@media (max-width:1200px){
+    h1 {
+        font-weight: 100;
+        font-size: 3 rem;
+    }
+}
+h2{
+    color:#bd928a ;
+}
+.basic{
+    margin-top: 100px;
+    margin-block: 100px;
+}
+.navbar.scrolled{
+    background: grey;
+    transition: background 1s;
+}
